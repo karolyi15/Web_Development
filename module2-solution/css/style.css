@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family: sans-serif;
+	margin-left: 15px;
+	text-align: left;
+}
+
+h1 {
+	
+	font-size: 175%;
+	text-align: center;
+	
+}
+
+h2 {
+	font-size: 125%;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+section {
+
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+/* Deskstop */
+
+@media (min-width:  992px){
+
+	#section1 {
+
+		background-color: #ffe6ff;
+	}
+
+	#section2 {
+		background-color: #e600e6;
+	}
+
+	#section3 {
+		background-color: #eeccff;
+
+	}
+
+}
+
+/* Laptop */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	#section1 {
+
+		background-color: #ffe6ff;
+	}
+
+	#section2 {
+		background-color: #e600e6;
+	}
+
+	#section3 {
+		background-color: #eeccff;
+
+	}
+}
+
+/* Mobile */
+@media (max-width:  767px){
+
+	#section1 {
+
+		background-color: #ffe6ff;
+	}
+
+	#section2 {
+		background-color: #e600e6;
+	}
+
+	#section3 {
+		background-color: #eeccff;
+
+	}
+}
+
